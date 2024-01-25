@@ -1,0 +1,38 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "Drive": {
+        "DifferentialDriveWheelSpeeds##v_/Drive/DesiredSpeeds": {
+          "open": true
+        },
+        "DifferentialDriveWheelVoltages##v_/Drive/DesiredVoltages": {
+          "open": true
+        },
+        "Pose2d##v_/Drive/CurrentPose": {
+          "Rotation2d##v_rotation": {
+            "open": true
+          },
+          "open": true
+        },
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}
